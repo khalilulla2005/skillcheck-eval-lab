@@ -1,0 +1,16 @@
+question_id,topic,prompt,answer,label,model_prediction,model_confidence,rubric_prediction
+py_dict_lookup,Python basics,What happens when you access a missing dictionary key with square brackets?,It returns no useful value if the key is not found.,partial,partial,0.345,incorrect
+py_dict_lookup,Python basics,What happens when you access a missing dictionary key with square brackets?,Python silently adds the missing key with a default value.,incorrect,correct,0.342,correct
+confusion_matrix,Machine learning,What can a confusion matrix show?,It ranks input features by how important they are to a model.,incorrect,partial,0.370,incorrect
+confusion_matrix,Machine learning,What can a confusion matrix show?,It gives one overall score for the model.,partial,incorrect,0.357,incorrect
+leakage,Machine learning,What is data leakage?,Information unavailable at prediction time accidentally enters training or evaluation and makes results look too good.,correct,correct,0.344,partial
+leakage,Machine learning,What is data leakage?,It is when a dataset has missing values that need to be removed.,incorrect,partial,0.373,incorrect
+leakage,Machine learning,What is data leakage?,It happens when training and test data are stored in different files.,partial,correct,0.387,partial
+baseline,Machine learning,Why compare a model with a simple baseline?,A baseline gives a simple reference score to check whether a more complex model adds value.,correct,partial,0.353,correct
+baseline,Machine learning,Why compare a model with a simple baseline?,A baseline is the final model that must always be deployed.,incorrect,incorrect,0.355,partial
+baseline,Machine learning,Why compare a model with a simple baseline?,It helps show which version has a larger number of parameters.,partial,incorrect,0.354,incorrect
+drift,Machine learning,What is data or concept drift?,It is a method for making model training finish faster.,incorrect,correct,0.360,incorrect
+drift,Machine learning,What is data or concept drift?,It means the model score is different on two test runs.,partial,correct,0.360,incorrect
+hallucination,AI evaluation,What is a hallucination in a generated answer?,It is a confident-sounding claim that is unsupported or false given the available evidence.,correct,partial,0.367,correct
+hallucination,AI evaluation,What is a hallucination in a generated answer?,It is a generated response that may contain an error.,partial,partial,0.360,incorrect
+
